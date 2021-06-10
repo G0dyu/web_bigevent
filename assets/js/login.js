@@ -58,7 +58,7 @@ $(function() {
                 layer.msg('登录成功')
                 console.log(res.token);
                 //将获取的token保存到locs中
-                localStorage.setItem('tonek', res.token)
+                localStorage.setItem('token', res.token)
                 location.href = 'index.html'
             }
         })
